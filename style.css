@@ -39,7 +39,7 @@
 
   --fw-normal:400;
   --fw-bold:500;
-  
+
 }
 
 .attribution {
@@ -49,3 +49,23 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
