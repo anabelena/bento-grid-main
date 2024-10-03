@@ -1,22 +1,51 @@
 @font-face {
-    font-family: 'DMSans';
-    font-display: swap;
-    font-weight: 400 500;
-    font-style: normal;
-    src: url("assets/fonts/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-family: "DMSans";
+  font-display: swap;
+  font-weight: 400 500;
+  font-style: normal;
+  src: url("assets/fonts/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'DMSans';
-    font-display: swap;
-    font-weight: 400 500;
-    font-style: italic;
-    src: url("assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-family: "DMSans";
+  font-display: swap;
+  font-weight: 400 500;
+  font-style: italic;
+  src: url("assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf")
+    format("truetype");
 }
 
+:root {
+  /* Color */
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
 
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
 
+  /* Font */
 
+  --font-family: "DMSans", sans-serif;
+
+  --fs-400: 1.125rem; /*18px*/
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+  --fs-900: 5rem;
+
+  --fw-normal:400;
+  --fw-bold:500;
+  
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
