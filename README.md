@@ -10,14 +10,14 @@ Users should be able to:
 
 ## Screenshot
 
-![Design preview for the Bento grid coding challenge](./preview.jpg)
+(./preview.jpg)
 
-## Links
+## Links 💻
 
-- Solution URL: [https://github.com/anabelena/bento-grid-main]
+- Solution URL: [GitHub] (https://github.com/anabelena/bento-grid-main).
 - Live Site URL:
 
-## Built with 💻
+## Built with 🚀
 
 - Mobile-first workflow
 - Semantic HTML5 markup
