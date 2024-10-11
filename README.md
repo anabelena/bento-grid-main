@@ -8,11 +8,12 @@ Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 
-## Screenshot
+## Screenshot 📱
+
+![screenshoot](screenshot.jpg)
 
 
-
-## Links
+## Links 🔗🔗
 
 - Solution URL: [Repository GitHub](https://github.com/anabelena/bento-grid-main).
 - Live Site URL: [GitHub Pages](https://anabelena.github.io/bento-grid-main/)
