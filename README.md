@@ -10,8 +10,7 @@ Users should be able to:
 
 ## Screenshot 📱
 
-![screenshoot](screenshot.jpg)
-
+![screenshoot](preview.jpg)
 
 ## Links 🔗🔗
 
