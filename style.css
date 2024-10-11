@@ -246,6 +246,7 @@ body {
 
   .bento__grid-element.schedule {
     grid-area: schedule;
+    text-align: left;
   }
 
   .bento__grid-element.schedule img{
