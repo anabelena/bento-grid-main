@@ -12,10 +12,10 @@ Users should be able to:
 
 (./preview.jpg)
 
-## Links 
+## Links
 
 - Solution URL: [Repository GitHub](https://github.com/anabelena/bento-grid-main).
-- Live Site URL:
+- Live Site URL: [GitHub Pages](https://anabelena.github.io/bento-grid-main/)
 
 ## Built with 🚀
 
