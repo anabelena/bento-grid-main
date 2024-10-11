@@ -14,7 +14,7 @@ Users should be able to:
 
 ## Links 💻
 
-- Solution URL: [GitHub] (https://github.com/anabelena/bento-grid-main).
+- Solution URL: [GitHub](https://github.com/anabelena/bento-grid-main).
 - Live Site URL:
 
 ## Built with 🚀
