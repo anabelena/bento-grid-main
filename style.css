@@ -89,7 +89,7 @@
 }
 
 .content-spacing{
-  --content-spacing:.5rem;
+  --content-spacing:.25rem;
   gap: var(--content-spacing);
 }
 
@@ -134,11 +134,10 @@ body {
 
 
 /* Mobile First */
-
 .bento__grid {
   max-width: 355px;
   display: grid;
-  gap: 1.75rem;
+  gap: 1.85rem;
 }
 
 .bento__grid-element {
@@ -156,9 +155,11 @@ body {
   color: var(--white-100);
   font-weight: var(--fw-bold);
   text-wrap: balance; 
+  padding: 2rem;
 }
 
 .bento__grid-element.faster img{
+  --img-md:150px;
   width: var(--img-md);
   margin-inline: auto;
 }
@@ -212,93 +213,90 @@ body {
 }
 
 /* DESKTOP Design */
-
 @media (min-width: 1024px) {
   .bento__grid {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 1rem;
     display: grid;
     grid-auto-columns: 1fr;
-    grid-auto-rows: 80px;
-    gap: 2rem;
+    gap: 1.75rem;
     grid-template-areas:
-      "box1 box2 box2 box3"
-      "box1 box2 box2 box3"
-      "box1 box2 box2 box3"
-      "box1 box2 box2 box3"
-      "box1 box5 box6 box3"
-      "box4 box5 box6 box3"
-      "box4 box5 box6 box3"
-      "box4 box7 box8 box8"
-      "box4 box7 box8 box8"
-      "box4 box7 box8 box8";
+      "content faster faster schedule"
+      "content faster faster schedule"
+      "content faster faster schedule"
+      "content faster faster schedule"
+      "content multiple mantain schedule"
+      "ai multiple mantain schedule"
+      "ai audience followers followers"
+      "ai audience followers followers";
   }
 
-  .bento__grid-element:nth-child(7) {
-    grid-area: box1;
-    padding: 6rem 2.5rem 0 3rem;
+
+  .bento__grid-element.content{
+    grid-area: content;
+    place-content: center;
   }
 
-  .bento__grid-element:nth-child(1) {
-    grid-area: box2;
+  .bento__grid-element.faster {
+    grid-area: faster;
+    place-content: center;
   }
 
-  .bento__grid-element:nth-child(4) {
-    grid-area: box3;
-    padding: 2.75rem 2rem 2.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .bento__grid-element.schedule {
+    grid-area: schedule;
+    
+  }
+
+  .bento__grid-element.schedule img{
+    transform: scale(1.5);
     position: relative;
-    text-align: left;
+    left: 40px;
+    
   }
 
-  .bento__grid-element:nth-child(4) img {
-    position: absolute;
-    height: 410px;
-    top: 150px;
-    object-fit: cover;
-    object-position: left;
+  .bento__grid-element.ai{
+    grid-area: ai;
   }
 
-  .bento__grid-element:nth-child(8) {
-    grid-area: box4;
+  .bento__grid-element.multiple{
+    grid-area: multiple;
+  
   }
 
-  .bento__grid-element:nth-child(2) {
-    grid-area: box5;
-  }
+.bento__grid-element.mantain{
+  grid-area: mantain;
+  position: relative;
+}
 
-  .bento__grid-element:nth-child(3) {
-    grid-area: box6;
-  }
+.bento__grid-element.mantain img{
+  position: absolute;
+  bottom: -60px;
+  left: 24px;
+  width: 180px;
+}
 
-  .bento__grid-element:nth-child(6) {
-    grid-area: box7;
-  }
+.bento__grid-element.audience{
+  grid-area: audience;
+}
 
-  .bento__grid-element:nth-child(5) {
-    grid-area: box8;
-    display: grid;
-    grid-template-columns: 1.75fr 2fr;
-    align-items: center;
-  }
+.bento__grid-element.followers{
+  grid-area: followers;
+  display: grid;
+  grid-auto-rows: min-content;
+  place-content: center;
+  grid-template-columns: 1fr 1.25fr;
+  padding: 1.5rem;
+}
+
+.bento__grid-element.followers p {
+ margin: auto;
+ text-align: left;
+}
+
+
+
 }
 
 
 
 
-/* @media (min-width: 700px) and (max-width: 1020px) {
-  .bento__grid {
-    grid-auto-rows: initial;
-    grid-template-areas:
-      "box1 box1 box2 box2"
-      "box1 box1 box2 box2"
-      "box3 box3 box4 box4"
-      "box3 box3 box4 box4"
-      "box5 box5 box6 box6"
-      "box5 box5 box6 box6"
-      "box7 box7 box8 box8"
-      "box7 box7 box8 box8";
-  }
-} */
