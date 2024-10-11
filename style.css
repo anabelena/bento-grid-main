@@ -180,6 +180,7 @@ body {
 
 .bento__grid-element.schedule {
   background-color: var(--purple-100);
+  text-align: center;
   text-wrap: pretty;
 }
 
@@ -214,6 +215,7 @@ body {
 
 /* DESKTOP Design */
 @media (min-width: 1024px) {
+
   .bento__grid {
     max-width: 1000px;
     margin: 1rem;
@@ -244,14 +246,12 @@ body {
 
   .bento__grid-element.schedule {
     grid-area: schedule;
-    
   }
 
   .bento__grid-element.schedule img{
     transform: scale(1.5);
     position: relative;
     left: 40px;
-    
   }
 
   .bento__grid-element.ai{
@@ -292,8 +292,6 @@ body {
  margin: auto;
  text-align: left;
 }
-
-
 
 }
 
