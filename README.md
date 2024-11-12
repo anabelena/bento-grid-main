@@ -6,7 +6,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
+- View the optimal layout for the interface depending on their device's screen size.
 
 ## Screenshot 📱
 
